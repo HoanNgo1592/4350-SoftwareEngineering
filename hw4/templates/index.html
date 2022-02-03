@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="/static/style.css"/>
+	</head>
+	<body>
+		<p>{{name}}'s favorite TV shows are: </p>
+		<ol>
+			<!-- For loop logic of jinja template -->
+			{%for i in range(0, len1)%}
+				<li>{{list1[i]}}</li>
+				<img src="{{list2[i]}}"/>
+			{%endfor%}
+		</ol>
+	</body>
+</html>
