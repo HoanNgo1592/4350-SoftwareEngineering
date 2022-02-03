@@ -1,0 +1,15 @@
+body{
+    background-color: #03a9f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol{
+    size: 36px;
+    @if list[2]{
+        color: green;
+    }
+}
+img{
+    width: 30;
+    
+}
